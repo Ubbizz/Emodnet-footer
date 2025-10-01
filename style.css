@@ -1,5 +1,5 @@
 *{
-    border: solid red 1px;
+    border: solid rgb(255, 255, 255) 1px;
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@ html, body{
 
 .main-div{
     height: 800px;
-    background-color: blue;
+    background-color: #004494;
     display: flex;
     justify-content: center;
 }
