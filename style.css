@@ -1,40 +1,46 @@
-*{
+* {
     border: solid rgb(255, 255, 255) 1px;
     box-sizing: border-box;
+    color: white;
 }
 
-html, body{
+html,
+body {
     margin: 0px;
     padding: 0px;
 }
 
-.main-div{
+.main-div {
     height: 900px;
     background-color: #004494;
     display: flex;
     justify-content: center;
 }
 
-.first-child{
+.first-child {
     width: 900px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.second-child{
-flex-grow: 1;
+.second-child {
+    flex-grow: 1;
 }
 
-.divider{
+.divider {
     height: 3px;
     background-color: white;
 }
 
-.second-child-fat{
+.second-child-fat {
     flex-grow: 3;
 }
 
-.emodnet-footer-1{
-    
+.emodnet-footer-1 {
+    padding-top: 1.5rem;
+}
+
+.emodnet-footer-1-1 {
+    margin-top: .5rem;
 }
