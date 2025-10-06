@@ -1,5 +1,5 @@
 * {
-    border: solid rgb(255, 255, 255) 1px;
+    border: solid rgb(255, 255, 255) 0px;
     box-sizing: border-box;
     color: white;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .first-child {
-    width: 900px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -29,12 +29,13 @@ body {
 }
 
 .divider {
-    height: 3px;
+    height: 1px;
     background-color: white;
 }
 
 .second-child-fat {
-    flex-grow: 3;
+    flex-grow: 3; 
+    flex-direction: row;
 }
 
 .emodnet-font-1 {
